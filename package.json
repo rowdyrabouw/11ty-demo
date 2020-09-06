@@ -1,0 +1,19 @@
+{
+  "name": "strapi-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "clear && rm -rf dist && npx @11ty/eleventy --serve"
+  },
+  "author": "Rowdy Rabouw",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "axios": "^0.20.0",
+    "eleventy-plugin-error-overlay": "^0.1.2",
+    "html-minifier": "^4.0.0",
+    "prettier": "1.19.1"
+  },
+  "dependencies": {}
+}
